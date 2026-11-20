@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{7b57c3cb-5ad0-4cf0-bc15-dd4f78f01e98}">
+		<property name="name">
+			<value>Stove_Status</value>
+		</property>
+		<relationship name="folder">
+			<destination>{208bf514-6b95-4678-a8f9-11a22d1cdcee}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5a955e50-2802-4690-94a0-d7a2c3e92f9d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5a955e50-2802-4690-94a0-d7a2c3e92f9d}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>StartUp</value>
+			<value>LightUp</value>
+			<value>LightOff</value>
+			<value>Fire</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
