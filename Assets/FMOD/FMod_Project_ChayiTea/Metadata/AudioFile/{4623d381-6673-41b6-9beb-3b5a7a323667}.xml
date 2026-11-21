@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{4623d381-6673-41b6-9beb-3b5a7a323667}">
+		<property name="assetPath">
+			<value>Stove/stove_fire1.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.3622675736961449</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{91f20a72-bdf9-4f2b-b9f1-42dfab504189}</destination>
+		</relationship>
+	</object>
+</objects>
