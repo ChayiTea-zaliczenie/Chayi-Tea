@@ -43,7 +43,7 @@ MonoBehaviour:
   Path: Assets/FMOD/FMod_Project_ChayiTea/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639314684101833479
+  lastModified: 639314796922434763
   FileSizes:
   - Name: Desktop
     Value: 820
@@ -63,7 +63,7 @@ MonoBehaviour:
   Path: Assets/FMOD/FMod_Project_ChayiTea/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639314684101827981
+  lastModified: 639314796922434763
   FileSizes:
   - Name: Desktop
     Value: 78144
@@ -91,7 +91,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -4373971724467881854}
   cacheVersion: 131861
-  cacheTime: 639314684101833479
+  cacheTime: 639314796922434763
   SerializableEventsDict:
   - key: event:/Stove
     index: 0

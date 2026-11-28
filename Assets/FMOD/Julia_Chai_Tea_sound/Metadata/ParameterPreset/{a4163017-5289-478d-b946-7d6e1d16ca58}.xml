@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{a4163017-5289-478d-b946-7d6e1d16ca58}">
+		<property name="name">
+			<value>mixing</value>
+		</property>
+		<relationship name="folder">
+			<destination>{838db349-779f-475f-bd18-ec000506c7fc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bf8ca5ba-7f09-4e16-a20f-e75698e319b3}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bf8ca5ba-7f09-4e16-a20f-e75698e319b3}">
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
