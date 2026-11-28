@@ -43,10 +43,10 @@ MonoBehaviour:
   Path: Assets/FMOD/FMod_Project_ChayiTea/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639314796922434763
+  lastModified: 639314806891329346
   FileSizes:
   - Name: Desktop
-    Value: 820
+    Value: 924
   Exists: 1
 --- !u!114 &-3770112624348958088
 MonoBehaviour:
@@ -63,11 +63,39 @@ MonoBehaviour:
   Path: Assets/FMOD/FMod_Project_ChayiTea/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639314796922434763
+  lastModified: 639314806891309362
   FileSizes:
   - Name: Desktop
-    Value: 78144
+    Value: 389344
   Exists: 1
+--- !u!114 &-2577138021696992775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/dishes
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/dishes
+  Guid:
+    Data1: -1179782927
+    Data2: 1114958116
+    Data3: -1533649485
+    Data4: -645931167
+  Banks:
+  - {fileID: -3770112624348958088}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3013153135449106572}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7300
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,16 +113,49 @@ MonoBehaviour:
   - {fileID: -3770112624348958088}
   EditorEvents:
   - {fileID: -6644475797092547486}
+  - {fileID: -2577138021696992775}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3770112624348958088}
   StringsBanks:
   - {fileID: -4373971724467881854}
   cacheVersion: 131861
-  cacheTime: 639314796922434763
+  cacheTime: 639314806891329346
   SerializableEventsDict:
   - key: event:/Stove
     index: 0
+  - key: event:/dishes
+    index: 1
+--- !u!114 &3013153135449106572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/dishes/Parameter 1
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Parameter 1
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 1796617266
+    data2: 2685344761
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  - Value B
+  - Value C
+  - Value D
+  - Value E
+  - Value F
+  Exists: 1
 --- !u!114 &6651710903533144737
 MonoBehaviour:
   m_ObjectHideFlags: 0

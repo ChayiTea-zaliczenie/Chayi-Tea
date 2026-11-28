@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{52c346e5-fdb5-4469-93c6-1c53db0de25b}">
+		<property name="assetPath">
+			<value>Dishes/sliding_mug_6.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.4536507936507936</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{91f20a72-bdf9-4f2b-b9f1-42dfab504189}</destination>
+		</relationship>
+	</object>
+</objects>
